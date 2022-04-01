@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Añadir"
+        android:textSize="25sp"
+        android:textColor="@color/colorAzul"
+        android:background="@color/colorBlanco"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="40dp"
+        android:hint="@string/NombrePlato"
+        android:inputType="text"
+        android:background="@color/colorBlanco"
+        android:textColorHint="@color/colorAzulTransparencia"/>
+
+
+    <Spinner
+        android:id="@+id/spPosicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorBlanco"
+        android:entries="@array/SPINNER_POSICIONES"/>
+
+    <EditText
+        android:id="@+id/etPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="150dp"
+        android:inputType="numberDecimal"
+        android:background="@color/colorBlanco"
+        android:hint="@string/Precio"
+        android:textColorHint="@color/colorAzulTransparencia"/>
+
+
+    <Button
+        android:id="@+id/btnAñadir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAñadir"
+        android:layout_marginTop="35dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Summer Project</string>
+    <string name="Titulo">RESTAURANT ORDER</string>
+    <string name="Peticion1">Enter a reservation name: </string>
+    <string name="Nombre">Full name</string>
+    <string name="Usuario">User</string>
+    <string name="Contraseña">Password</string>
+    <string name="ClienteAdmin">How do you want to access?</string>
+    <string name="btnAcceder">Log in</string>
+    <string name="btnAdmin">Administrator</string>
+    <string name="btnPedir">Ask</string>
+    <string name="btnCliente">Customer</string>
+    <string name="btnReserva">Make a reservation/order</string>
+    <string name="btnAñadir">Add</string>
+    <string name="btnEliminar">Delete</string>
+    <string name="btnModificar">Modify</string>
+    <string name="btnBuscar">Search</string>
+    <string name="btnVerLista">See list</string>
+    <string name="Menu">Letter</string>
+    <string name="Finalizar">Finish</string>
+    <string name="Valoracion">Valuation</string>
+    <string name="Ubicacion">Location</string>
+    <string name="Contacto">Contact</string>
+    <string name="Metodos">What do you want to do as an administrator?</string>
+    <string name="Añadir">Add dish</string>
+    <string name="Eliminar">Remove dish</string>
+    <string name="Modificar">Modify dish</string>
+    <string name="Mensaje1">APP CLOSURES</string>
+    <string name="Mensaje2">The APP will close</string>
+    <string name="Mensaje3">Are you sure?</string>
+    <string name="PlatoCreado">The new dish was created</string>
+    <string name="PlatoEliminado">The existing dish has been removed</string>
+    <string name="Login">Login</string>
+    <string name="Entrantes">Starters</string>
+    <string name="PrimerPlato">First course</string>
+    <string name="SegundoPlato">Second course</string>
+    <string name="Postre">Dessert</string>
+    <string name="Bebida">Drink</string>
+    <string name="NombrePlato">Name</string>
+    <string name="Precio">Price</string>
+    <string name="Posicion">Position</string>
+
+
+
+    <string-array name="SPINNER_POSICIONES">
+        <item>Drink</item>
+        <item>Starters</item>
+        <item>First course</item>
+        <item>Second course</item>
+        <item>Dessert</item>
+    </string-array>
+</resources>

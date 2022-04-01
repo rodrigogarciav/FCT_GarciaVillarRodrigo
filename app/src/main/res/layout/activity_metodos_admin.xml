@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Metodos"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorAzul"
+        android:background="@color/colorBlanco"
+        android:textStyle="bold"
+        />
+
+
+        <Button
+            android:id="@+id/btnAñadir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Añadir"
+            android:layout_marginTop="35dp"
+            />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Eliminar"
+            android:layout_marginTop="35dp"
+            />
+
+        <Button
+            android:id="@+id/btnModificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Modificar"
+            android:layout_marginTop="35dp"
+            />
+
+
+
+    <Button
+        android:id="@+id/btnVerLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnVerLista"
+        android:layout_marginTop="35dp"
+        />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtPedidoNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPedir"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAzul"
+        android:background="@color/colorBlanco"
+        android:layout_marginVertical="20dp"
+        android:textSize="50sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlanco"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/ACTVBebida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Bebida"
+            android:inputType="textAutoComplete"
+            android:textStyle="italic"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="20sp"
+            android:completionThreshold="1"/>
+
+        <Button
+            android:id="@+id/btnBebida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Bebida"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlanco"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+
+        <AutoCompleteTextView
+            android:id="@+id/ACTVEntrantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Entrantes"
+            android:inputType="textAutoComplete"
+            android:textStyle="italic"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="20sp"
+            android:completionThreshold="1"/>
+
+        <Button
+            android:id="@+id/btnEntrantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Entrantes"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlanco"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/ACTVPrimero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:hint="@string/PrimerPlato"
+            android:inputType="textAutoComplete"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:completionThreshold="1"/>
+
+        <Button
+            android:id="@+id/btnPrimero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PrimerPlato"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlanco"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/ACTVSegundo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/SegundoPlato"
+            android:inputType="textAutoComplete"
+            android:textStyle="italic"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="20sp"
+            android:completionThreshold="1"/>
+
+        <Button
+            android:id="@+id/btnSegundo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SegundoPlato"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlanco"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/ACTVPostre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Postre"
+            android:inputType="textAutoComplete"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="30dp"
+            android:completionThreshold="1"/>
+
+        <Button
+            android:id="@+id/btnPedir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Postre"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPostre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="@string/btnPedir"/>
+
+
+    <ListView
+        android:id="@+id/lvPedido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="30dp"/>
+
+
+
+</LinearLayout>
